@@ -43,7 +43,17 @@ public class FoursquareTemplate extends AbstractOAuth2ApiBinding implements Four
 	private ObjectMapper objectMapper;
 	
 	public FoursquareTemplate(String clientId, String clientSecret) {
-		this(clientId, clientSecret, null);
+		/**
+		 * conflicts with access without OAuth eg venues.search
+		 * this(clientId, clientSecret, null);
+		 * it is importand to contruct AbstractOAuth2ApiBinding() without parameter 
+		 */
+		
+		super();
+		this.clientId = clientId;
+		this.clientSecret = clientSecret;
+		this.accessToken = accessToken;
+		initialize();
 	}
 	
 	public FoursquareTemplate(String clientId, String clientSecret, String accessToken) {
