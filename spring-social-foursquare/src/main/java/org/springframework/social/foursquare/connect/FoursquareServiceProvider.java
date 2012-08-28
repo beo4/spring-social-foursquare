@@ -18,5 +18,9 @@ public class FoursquareServiceProvider extends AbstractOAuth2ServiceProvider<Fou
     public Foursquare getApi(String accessToken) {
         return new FoursquareTemplate(clientId, clientSecret, accessToken);
     }
+    
+    public Foursquare getApi() {
+        return new FoursquareTemplate(clientId, clientSecret);
+    }
 
 }
