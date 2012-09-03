@@ -21,6 +21,11 @@ import org.springframework.social.foursquare.api.FoursquareUser;
 import org.springframework.social.foursquare.api.FoursquareUserGroup;
 import org.springframework.social.foursquare.api.FriendInfo;
 import org.springframework.social.foursquare.api.Friends;
+import org.springframework.social.foursquare.api.GeoCode;
+import org.springframework.social.foursquare.api.GeoCodeBounds;
+import org.springframework.social.foursquare.api.GeoCodeFeature;
+import org.springframework.social.foursquare.api.GeoCodeGeoPt;
+import org.springframework.social.foursquare.api.GeoCodeGeometry;
 import org.springframework.social.foursquare.api.HereNow;
 import org.springframework.social.foursquare.api.Keyword;
 import org.springframework.social.foursquare.api.Keywords;
@@ -57,6 +62,7 @@ import org.springframework.social.foursquare.api.VenueHistoryItem;
 import org.springframework.social.foursquare.api.VenueLink;
 import org.springframework.social.foursquare.api.VenueLinks;
 import org.springframework.social.foursquare.api.VenueMayor;
+import org.springframework.social.foursquare.api.VenueSearchResponse;
 import org.springframework.social.foursquare.api.VenueStats;
 import org.springframework.social.foursquare.api.VenueTips;
 
@@ -125,5 +131,11 @@ public class FoursquareModule extends SimpleModule {
 		context.setMixInAnnotations(VenueMayor.class, VenueMayorMixin.class);
 		context.setMixInAnnotations(VenueStats.class, VenueStatsMixin.class);
 		context.setMixInAnnotations(VenueTips.class, VenueTipsMixin.class);
+		context.setMixInAnnotations(GeoCode.class, GeoCodeMixin.class);
+		context.setMixInAnnotations(GeoCodeBounds.class, GeoCodeBoundsMixin.class);
+		context.setMixInAnnotations(GeoCodeFeature.class, GeoCodeFeatureMixin.class);
+		context.setMixInAnnotations(GeoCodeGeoPt.class, GeoCodeGeoPtMixin.class);
+		context.setMixInAnnotations(GeoCodeGeometry.class, GeoCodeGeometryMixin.class);
+		context.setMixInAnnotations(VenueSearchResponse.class, VenueSearchResponseMixin.class);
 	}
 }

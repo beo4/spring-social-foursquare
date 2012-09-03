@@ -1,6 +1,5 @@
 package org.springframework.social.foursquare.api;
 
-import java.util.List;
 
 public class GeoCodeFeature  {
 	

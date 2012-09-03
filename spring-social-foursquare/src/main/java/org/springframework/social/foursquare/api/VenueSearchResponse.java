@@ -19,5 +19,13 @@ public class VenueSearchResponse {
     public GeoCode getGeoCode() {
     	return geoCode;
     }
+    
+    public List<Venue> setVenues() {
+        return venues;
+    }
+    
+    public GeoCode setGeoCode() {
+    	return geoCode;
+    }
 	
 }

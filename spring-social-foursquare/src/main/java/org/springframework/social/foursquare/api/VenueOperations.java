@@ -53,6 +53,13 @@ public interface VenueOperations {
 	VenueSearchResponse search(VenueSearchParams query);
 	
 	/**
+	 * Search Foursquare venues
+	 * @param query	A VenueSearchQuery object
+	 * @return	The GeoCode for the Search
+	 */
+	GeoCode getGeocode(VenueSearchParams query);
+	
+	/**
 	 * Retreive a list of venues near the specified location with the most people currently checked in. 
 	 * @param latitude	Latitude
 	 * @param longitude	Longitude

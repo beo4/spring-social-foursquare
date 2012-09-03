@@ -1039,34 +1039,34 @@
             }
          }
       ],
-		"geocode": {
+	  "geocode": {
 		"feature": {
-		"cc": "DE"
-		"geometry": {
-		"center": {
-		"lat": 47.85637
-		"lng": 12.12247
-		}
-		bounds: {
-		"ne": {
-		"lat": 47.828979492188
-		"lng": 12.090454101562
-		}
-		"sw": {
-		"lat": 47.86629486084
-		"lng": 12.148261070251
-		}
-		}
-		}
-		"name": "Rosenheim"
-		"displayName": "Rosenheim, Bayern, DE"
-		"woeType": 7
-		"attribution": [
-		"GeoNames 2012 CC-BY"
-		]
-		"highlightedName": "<b>Rosenheim</b>, Bayern, DE"
-		"matchedName": "Rosenheim, Bayern, DE"
-		}
-		}
+			"cc": "DE"
+			"geometry": {
+				"center": {
+					"lat": 47.85637
+					"lng": 12.12247
+				}
+			"bounds": {
+				"ne": {
+					"lat": 47.828979492188
+					"lng": 12.090454101562
+				}
+				"sw": {
+					"lat": 47.86629486084
+					"lng": 12.148261070251
+					}
+				}
+			}
+			"name": "Rosenheim"
+			"displayName": "Rosenheim, Bayern, DE"
+			"woeType": 7
+			"attribution": [
+				"GeoNames 2012 CC-BY"
+				]
+			"highlightedName": "<b>Rosenheim</b>, Bayern, DE"
+			"matchedName": "Rosenheim, Bayern, DE"
+			}	
+	  	}
    }
 }

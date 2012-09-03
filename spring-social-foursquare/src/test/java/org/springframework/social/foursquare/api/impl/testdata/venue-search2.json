@@ -1,0 +1,1738 @@
+
+{
+"meta": {
+"code": 200
+},
+"notifications": [
+{
+"type": "notificationTray",
+"item": {
+"unreadCount": 0
+}
+}
+],
+"response": {
+"venues": [
+{
+"id": "4e89dd7b7beb72b3669c8e75",
+"name": "Flötzinger Bräustüberl",
+"contact": {
+},
+"location": {
+"address": "Samerstraße 17",
+"lat": 47.8547536635612,
+"lng": 12.121953964233398,
+"distance": 184,
+"postalCode": "83022",
+"city": "Rosenheim",
+"state": "Bayern",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d10d941735",
+"name": "Deutsches Restaurant",
+"pluralName": "Deutsche Restaurants",
+"shortName": "Deutsch",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/german_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 14,
+"usersCount": 9,
+"tipCount": 1
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"friendVisits": {
+"count": 0,
+"summary": "Du bist hier gewesen",
+"items": [
+{
+"visitedCount": 2,
+"liked": false,
+"user": {
+"id": "2459620",
+"firstName": "Christoph",
+"lastName": "Beo",
+"relationship": "self",
+"photo": {
+"prefix": "https://irs2.4sqi.net/img/user/",
+"suffix": "/41BIHKI54PO3BDYC.jpg"
+}
+}
+}
+]
+},
+"beenHere": {
+"count": 2,
+"marked": false
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "503ca3cce4b035ef21b31ce8",
+"name": "Bierbichler Auf der Wiesn",
+"contact": {
+},
+"location": {
+"lat": 47.859813,
+"lng": 12.126489,
+"distance": 486,
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d1ce941735",
+"name": "Fischrestaurant",
+"pluralName": "Fischrestaurants",
+"shortName": "Fisch & Meeresfrüchte",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/seafood_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 1,
+"usersCount": 1,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"friendVisits": {
+"count": 0,
+"summary": "Du bist hier gewesen",
+"items": [
+{
+"visitedCount": 1,
+"liked": false,
+"user": {
+"id": "2459620",
+"firstName": "Christoph",
+"lastName": "Beo",
+"relationship": "self",
+"photo": {
+"prefix": "https://irs2.4sqi.net/img/user/",
+"suffix": "/41BIHKI54PO3BDYC.jpg"
+}
+}
+}
+]
+},
+"beenHere": {
+"count": 1,
+"marked": false
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "50388fa7e4b06348eaf9444f",
+"name": "Flötzinger Festzelt",
+"contact": {
+},
+"location": {
+"address": "Herbstraße 2",
+"lat": 47.85924736099827,
+"lng": 12.126800045047219,
+"distance": 455,
+"postalCode": "83022",
+"city": "Rosenheim",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d117941735",
+"name": "Biergarten",
+"pluralName": "Biergärten ",
+"shortName": "Biergarten",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/nightlife/beergarden_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 26,
+"usersCount": 15,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"friendVisits": {
+"count": 0,
+"summary": "Du bist hier gewesen",
+"items": [
+{
+"visitedCount": 1,
+"liked": false,
+"user": {
+"id": "2459620",
+"firstName": "Christoph",
+"lastName": "Beo",
+"relationship": "self",
+"photo": {
+"prefix": "https://irs2.4sqi.net/img/user/",
+"suffix": "/41BIHKI54PO3BDYC.jpg"
+}
+}
+}
+]
+},
+"beenHere": {
+"count": 1,
+"marked": false
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4c791502df08a1cd2e57d95d",
+"name": "Herbstfest Rosenheim",
+"contact": {
+},
+"location": {
+"address": "Herbststraße 2",
+"lat": 47.85979722543007,
+"lng": 12.126318077178238,
+"distance": 477,
+"postalCode": "83022",
+"city": "Rosenheim",
+"state": "Bayern",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d182941735",
+"name": "Themenpark",
+"pluralName": "Themenparks",
+"shortName": "Themenpark",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/arts_entertainment/themepark_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 226,
+"usersCount": 114,
+"tipCount": 3
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"friendVisits": {
+"count": 0,
+"summary": "Du bist hier gewesen",
+"items": [
+{
+"visitedCount": 2,
+"liked": false,
+"user": {
+"id": "2459620",
+"firstName": "Christoph",
+"lastName": "Beo",
+"relationship": "self",
+"photo": {
+"prefix": "https://irs2.4sqi.net/img/user/",
+"suffix": "/41BIHKI54PO3BDYC.jpg"
+}
+}
+}
+]
+},
+"beenHere": {
+"count": 2,
+"marked": false
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 1,
+"groups": [
+{
+"type": "others",
+"name": "Andere Leute hier",
+"count": 1,
+"items": [
+]
+}
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4c14bcc1a1010f47d8df4c18",
+"name": "Gardena",
+"contact": {
+},
+"location": {
+"lat": 47.852201,
+"lng": 12.120768,
+"distance": 481,
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d110941735",
+"name": "Italienisches Restaurant",
+"pluralName": "Italienische Restaurants",
+"shortName": "Italienisch",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/italian_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 10,
+"usersCount": 6,
+"tipCount": 1
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"friendVisits": {
+"count": 0,
+"summary": "Du bist hier gewesen",
+"items": [
+{
+"visitedCount": 1,
+"liked": false,
+"user": {
+"id": "2459620",
+"firstName": "Christoph",
+"lastName": "Beo",
+"relationship": "self",
+"photo": {
+"prefix": "https://irs2.4sqi.net/img/user/",
+"suffix": "/41BIHKI54PO3BDYC.jpg"
+}
+}
+}
+]
+},
+"beenHere": {
+"count": 1,
+"marked": false
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4eca3c469a52756c58d9d04f",
+"name": "Don's",
+"contact": {
+},
+"location": {
+"lat": 47.851315,
+"lng": 12.127084,
+"distance": 659,
+"city": "Rosenheim",
+"state": "Bayern",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d110941735",
+"name": "Italienisches Restaurant",
+"pluralName": "Italienische Restaurants",
+"shortName": "Italienisch",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/italian_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 9,
+"usersCount": 6,
+"tipCount": 1
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"friendVisits": {
+"count": 0,
+"summary": "Du bist hier gewesen",
+"items": [
+{
+"visitedCount": 3,
+"liked": false,
+"user": {
+"id": "2459620",
+"firstName": "Christoph",
+"lastName": "Beo",
+"relationship": "self",
+"photo": {
+"prefix": "https://irs2.4sqi.net/img/user/",
+"suffix": "/41BIHKI54PO3BDYC.jpg"
+}
+}
+}
+]
+},
+"beenHere": {
+"count": 3,
+"marked": true
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4c7a7f4b93ef236aefb3b20f",
+"name": "Auer Bräu Festzelt (Herbstfest)",
+"contact": {
+},
+"location": {
+"lat": 47.86051963,
+"lng": 12.12529238,
+"distance": 507,
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d117941735",
+"name": "Biergarten",
+"pluralName": "Biergärten ",
+"shortName": "Biergarten",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/nightlife/beergarden_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 123,
+"usersCount": 51,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"friendVisits": {
+"count": 0,
+"summary": "Du bist hier gewesen",
+"items": [
+{
+"visitedCount": 1,
+"liked": false,
+"user": {
+"id": "2459620",
+"firstName": "Christoph",
+"lastName": "Beo",
+"relationship": "self",
+"photo": {
+"prefix": "https://irs2.4sqi.net/img/user/",
+"suffix": "/41BIHKI54PO3BDYC.jpg"
+}
+}
+}
+]
+},
+"beenHere": {
+"count": 1,
+"marked": false
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4e9fbb9f93ad3307df416139",
+"name": "Gesundheitsamt Rosenheim",
+"contact": {
+},
+"location": {
+"address": "Prinzregentenstraße",
+"lat": 47.856781,
+"lng": 12.122558,
+"distance": 46,
+"city": "Rosenheim",
+"state": "Bayern",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d104941735",
+"name": "Medizinisches Zentrum",
+"pluralName": "Medizinische Zentren",
+"shortName": "Medizinisch",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/building/medical_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 1,
+"usersCount": 1,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4b75b5c4f964a520cf1e2ee3",
+"name": "Don Quichotte",
+"contact": {
+},
+"location": {
+"address": "Samerstr. 12",
+"lat": 47.85440723060171,
+"lng": 12.122063357500997,
+"distance": 220,
+"postalCode": "83022",
+"city": "Rosenheim",
+"state": "Bayern",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+],
+"verified": false,
+"stats": {
+"checkinsCount": 29,
+"usersCount": 15,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4f1f526de4b019c304dc9fe7",
+"name": "HQ Bubble Tea",
+"contact": {
+"phone": "08031352063",
+"formattedPhone": "08031/352063"
+},
+"location": {
+"address": "Prinzregentenstr. 2",
+"lat": 47.85531969667639,
+"lng": 12.125360443788045,
+"distance": 245,
+"postalCode": "83022",
+"city": "Rosenheim",
+"state": "Bayern",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d1e0931735",
+"name": "Coffee Shop",
+"pluralName": "Coffee Shops",
+"shortName": "Coffee Shop",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/coffeeshop_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 8,
+"usersCount": 7,
+"tipCount": 1
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 1,
+"groups": [
+{
+"type": "others",
+"name": "Andere Leute hier",
+"count": 1,
+"items": [
+]
+}
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4b769cd4f964a52076542ee3",
+"name": "Karstadt Rosenheim",
+"contact": {
+},
+"location": {
+"lat": 47.85422812065154,
+"lng": 12.124797105789185,
+"distance": 295,
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d1f6941735",
+"name": "Kaufhaus",
+"pluralName": "Kaufhäuser",
+"shortName": "Kaufhaus",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/shops/departmentstore_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 263,
+"usersCount": 63,
+"tipCount": 1
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4df9df60fa7667368a6cf2fc",
+"name": "Italy Confidental",
+"contact": {
+},
+"location": {
+"lat": 47.85603684599135,
+"lng": 12.118969953670232,
+"distance": 264,
+"city": "Rosenheim",
+"state": "BY",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d110941735",
+"name": "Italienisches Restaurant",
+"pluralName": "Italienische Restaurants",
+"shortName": "Italienisch",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/italian_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 26,
+"usersCount": 7,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4e57cf7045dd1de4d98c22a8",
+"name": "Il Monastero",
+"contact": {
+},
+"location": {
+"lat": 47.85491133487547,
+"lng": 12.124739134981086,
+"distance": 234,
+"city": "Rosenheim",
+"state": "Bayern",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d110941735",
+"name": "Italienisches Restaurant",
+"pluralName": "Italienische Restaurants",
+"shortName": "Italienisch",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/italian_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 9,
+"usersCount": 9,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4ca88657a6e08cfa8bc38f94",
+"name": "Flötzinger Bräu Rosenheim",
+"contact": {
+},
+"location": {
+"lat": 47.854664,
+"lng": 12.1216676055615,
+"distance": 199,
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "50327c8591d4c4b30a586d5d",
+"name": "Brauerei",
+"pluralName": "Brauereien",
+"shortName": "Brauerei",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/brewery_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 18,
+"usersCount": 12,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4ca884b9b7106dcbcd1373a5",
+"name": "Luitpold Park Rosenheim",
+"contact": {
+},
+"location": {
+"lat": 47.85666,
+"lng": 12.122742,
+"distance": 38,
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d163941735",
+"name": "Park",
+"pluralName": "Parks",
+"shortName": "Park",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/parks_outdoors/park_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 9,
+"usersCount": 5,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4dc41653887717c880001dfa",
+"name": "ignaz günther gymnasium",
+"contact": {
+},
+"location": {
+"address": "prinzregentenstraße",
+"lat": 47.85836577415466,
+"lng": 12.12093192,
+"distance": 250,
+"city": "rosenheim",
+"state": "deutschland",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d199941735",
+"name": "Schulgebäude für Kunst",
+"pluralName": "Schulgebäude für Kunst",
+"shortName": "Kultur",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/arts_entertainment/default_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 34,
+"usersCount": 7,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4d64ddee36a96dcbee9654f4",
+"name": "Busbahnhof Rosenheim",
+"contact": {
+},
+"location": {
+"address": "Stollstraße 1",
+"lat": 47.856210024674894,
+"lng": 12.125267266930946,
+"distance": 209,
+"postalCode": "83022",
+"city": "Rosenheim",
+"state": "Bayern",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d1fe931735",
+"name": "Busbahnhof",
+"pluralName": "Busbahnhöfe",
+"shortName": "Busbahnhof",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/travel/busstation_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 126,
+"usersCount": 27,
+"tipCount": 1
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4e0caf5bc65bd1c17b705915",
+"name": "Café Sol Rosenheim",
+"contact": {
+},
+"location": {
+"address": "Heilig-Geist-Straße 12",
+"lat": 47.856439,
+"lng": 12.12591,
+"distance": 257,
+"postalCode": "83022",
+"city": "Rosenheim",
+"state": "Bayern",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d16d941735",
+"name": "Café",
+"pluralName": "Cafés",
+"shortName": "Café",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/cafe_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 40,
+"usersCount": 14,
+"tipCount": 1
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4f2a3d70e4b0582eff2937cb",
+"name": "Anwaltskanzlei Fiducius",
+"contact": {
+},
+"location": {
+"address": "Prinzregentenstraße 6-8",
+"lat": 47.85595190205471,
+"lng": 12.12512398015276,
+"distance": 203,
+"postalCode": "83022",
+"city": "Rosenheim",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d174941735",
+"name": "Coworking-Büro",
+"pluralName": "Coworking-Büros",
+"shortName": "Coworking-Büro",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/building/office_coworkingspace_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 4,
+"usersCount": 2,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4b7580bef964a52049102ee3",
+"name": "Fischküche",
+"contact": {
+},
+"location": {
+"address": "Gillitzerstraße 10",
+"lat": 47.854641,
+"lng": 12.12413,
+"distance": 228,
+"postalCode": "83022",
+"city": "Rosenheim",
+"state": "Bayern",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d117941735",
+"name": "Biergarten",
+"pluralName": "Biergärten ",
+"shortName": "Biergarten",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/nightlife/beergarden_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 50,
+"usersCount": 15,
+"tipCount": 3
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"friendVisits": {
+"count": 0,
+"summary": "Du bist hier gewesen",
+"items": [
+{
+"visitedCount": 9,
+"liked": false,
+"user": {
+"id": "2459620",
+"firstName": "Christoph",
+"lastName": "Beo",
+"relationship": "self",
+"photo": {
+"prefix": "https://irs2.4sqi.net/img/user/",
+"suffix": "/41BIHKI54PO3BDYC.jpg"
+}
+}
+}
+]
+},
+"beenHere": {
+"count": 9,
+"marked": false
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4d6bc5a8f7228cfac1c2f945",
+"name": "Bambus Bistro",
+"contact": {
+"phone": "080318876307",
+"formattedPhone": "08031/8876307"
+},
+"location": {
+"address": "Frühlingstr.10",
+"lat": 47.85696704713014,
+"lng": 12.125200510121564,
+"distance": 214,
+"postalCode": "83022",
+"city": "Rosenheim",
+"state": "Bayern",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d142941735",
+"name": "Asiatisches Restaurant",
+"pluralName": "Asiatische Restaurants",
+"shortName": "Asiatisch",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/asian_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 48,
+"usersCount": 10,
+"tipCount": 2
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4d20aa062eb1f04d21d5f1c1",
+"name": "Hong Long",
+"contact": {
+},
+"location": {
+"lat": 47.856686,
+"lng": 12.124886,
+"distance": 183,
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+],
+"verified": false,
+"stats": {
+"checkinsCount": 23,
+"usersCount": 13,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4f3aa8d6e4b0459cea6e5185",
+"name": "VHS Rosenheim II",
+"contact": {
+},
+"location": {
+"address": "Stollstrasse",
+"lat": 47.856244815210246,
+"lng": 12.124814618254632,
+"distance": 175,
+"city": "Rosenheim",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d1a2941735",
+"name": "Community College",
+"pluralName": "Gemeindeschulen",
+"shortName": "Community College",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/education/communitycollege_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 13,
+"usersCount": 3,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4dbaba874b22153e34b94879",
+"name": "San Marco",
+"contact": {
+},
+"location": {
+"lat": 47.856319873025534,
+"lng": 12.125735933572784,
+"distance": 244,
+"city": "Rosenheim",
+"state": "BY",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d1c9941735",
+"name": "Eisdiele",
+"pluralName": "Eisdielen",
+"shortName": "Eiskrem",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/icecream_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 15,
+"usersCount": 8,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4d6931031a88b1f783e8275d",
+"name": "Tay Do",
+"contact": {
+},
+"location": {
+"lat": 47.854491681389405,
+"lng": 12.123245392265245,
+"distance": 216,
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d145941735",
+"name": "Chinesische Restaurant",
+"pluralName": "Chinesisches Restaurant",
+"shortName": "Chinesisch",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/chinese_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 19,
+"usersCount": 7,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4c532a5e72cf0f47d7e16dd2",
+"name": "La Grappa",
+"contact": {
+},
+"location": {
+"address": "Riederstraße 8",
+"lat": 47.854355,
+"lng": 12.122705,
+"distance": 224,
+"postalCode": "83022",
+"city": "Rosenheim",
+"state": "Bavaria",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d110941735",
+"name": "Italienisches Restaurant",
+"pluralName": "Italienische Restaurants",
+"shortName": "Italienisch",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/italian_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 12,
+"usersCount": 9,
+"tipCount": 1
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4cdea87694c3b60c09ab66ea",
+"name": "Buchecker",
+"contact": {
+},
+"location": {
+"lat": 47.854188,
+"lng": 12.124379,
+"distance": 281,
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d16d941735",
+"name": "Café",
+"pluralName": "Cafés",
+"shortName": "Café",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/cafe_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 42,
+"usersCount": 8,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4c57fceecc96c9b64d157a2e",
+"name": "Nordsee Rosenheim",
+"contact": {
+},
+"location": {
+"lat": 47.8534328583211,
+"lng": 12.122084292484702,
+"distance": 328,
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d1ce941735",
+"name": "Fischrestaurant",
+"pluralName": "Fischrestaurants",
+"shortName": "Fisch & Meeresfrüchte",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/food/seafood_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 24,
+"usersCount": 9,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4dba9e13fa8c2e303f289610",
+"name": "G Star Raw",
+"contact": {
+},
+"location": {
+"lat": 47.854439005082526,
+"lng": 12.125128460132961,
+"distance": 292,
+"city": "Rosenheim",
+"state": "BY",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d104951735",
+"name": "Boutique",
+"pluralName": "Boutiquen",
+"shortName": "Boutique",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/shops/apparel_boutique_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 7,
+"usersCount": 5,
+"tipCount": 0
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+},
+{
+"id": "4e1d92bafa7653a9b2e406d0",
+"name": "Ankirchner",
+"contact": {
+},
+"location": {
+"lat": 47.85424645979285,
+"lng": 12.124934673394353,
+"distance": 299,
+"city": "Rosenheim",
+"state": "Bayern",
+"country": "Germany",
+"cc": "DE"
+},
+"categories": [
+{
+"id": "4bf58dd8d48988d1f2941735",
+"name": "Sportzubehörladen",
+"pluralName": "Sportzubehörläden",
+"shortName": "Sportzubehör",
+"icon": {
+"prefix": "https://foursquare.com/img/categories_v2/shops/sports_outdoors_",
+"suffix": ".png"
+},
+"primary": true
+}
+],
+"verified": false,
+"stats": {
+"checkinsCount": 17,
+"usersCount": 7,
+"tipCount": 1
+},
+"likes": {
+"count": 0,
+"groups": [
+]
+},
+"specials": {
+"count": 0,
+"items": [
+]
+},
+"hereNow": {
+"count": 0,
+"groups": [
+]
+},
+"referralId": "v-1346688119"
+}
+],
+"geocode": {
+"feature": {
+"cc": "DE",
+"geometry": {
+"center": {
+"lat": 47.85637,
+"lng": 12.12247
+},
+"bounds": {
+"ne": {
+"lat": 47.828979492188,
+"lng": 12.090454101562
+},
+"sw": {
+"lat": 47.86629486084,
+"lng": 12.148261070251
+}
+}
+},
+"name": "Rosenheim",
+"displayName": "Rosenheim, Bayern, DE",
+"woeType": 7,
+"attribution": [
+"GeoNames 2012 CC-BY"
+],
+"highlightedName": "<b>Rosenheim</b>, Bayern, DE",
+"matchedName": "Rosenheim, Bayern, DE"
+}
+}
+}
+}
+

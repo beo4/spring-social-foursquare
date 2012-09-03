@@ -18,6 +18,7 @@ import org.springframework.social.foursquare.api.Category;
 import org.springframework.social.foursquare.api.CheckinInfo;
 import org.springframework.social.foursquare.api.ExploreQuery;
 import org.springframework.social.foursquare.api.ExploreResponse;
+import org.springframework.social.foursquare.api.GeoCode;
 import org.springframework.social.foursquare.api.Location;
 import org.springframework.social.foursquare.api.Tips;
 import org.springframework.social.foursquare.api.Todo;
@@ -88,12 +89,23 @@ public class VenueTemplateTest extends AbstractFoursquareApiTest {
     public void search() {
         mockServer.expect(requestTo("https://api.foursquare.com/v2/venues/search?oauth_token=ACCESS_TOKEN&v=20110609&ll=10.0%2C10.0&query=QUERY"))
             .andExpect(method(GET))
-            .andRespond(withResponse(new ClassPathResource("testdata/venue-search.json", getClass()), responseHeaders));
+            .andRespond(withResponse(new ClassPathResource("testdata/venue-search2.json", getClass()), responseHeaders));
         
         VenueSearchParams query = new VenueSearchParams().location(10d, 10d).query("QUERY");
         VenueSearchResponse response = foursquare.venueOperations().search(query);
         List<Venue> results = response.getVenues();
         assertTrue(results.size() > 0);
+    }
+	
+	@Test
+    public void geoCode() {
+        mockServer.expect(requestTo("https://api.foursquare.com/v2/venues/search?oauth_token=ACCESS_TOKEN&v=20110609&ll=10.0%2C10.0&query=QUERY"))
+            .andExpect(method(GET))
+            .andRespond(withResponse(new ClassPathResource("testdata/venue-search2.json", getClass()), responseHeaders));
+        
+        VenueSearchParams query = new VenueSearchParams().location(10d, 10d).query("QUERY");
+        GeoCode geoCode = foursquare.venueOperations().getGeocode(query);
+        assertTrue(geoCode!=null);
     }
 	
 	@Test

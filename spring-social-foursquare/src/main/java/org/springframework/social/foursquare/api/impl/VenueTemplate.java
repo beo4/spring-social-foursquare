@@ -8,6 +8,7 @@ import org.springframework.social.foursquare.api.Category;
 import org.springframework.social.foursquare.api.CheckinInfo;
 import org.springframework.social.foursquare.api.ExploreQuery;
 import org.springframework.social.foursquare.api.ExploreResponse;
+import org.springframework.social.foursquare.api.GeoCode;
 import org.springframework.social.foursquare.api.Tips;
 import org.springframework.social.foursquare.api.Todo;
 import org.springframework.social.foursquare.api.Venue;
@@ -17,6 +18,7 @@ import org.springframework.social.foursquare.api.Photos;
 import org.springframework.social.foursquare.api.VenueSearchParams;
 import org.springframework.social.foursquare.api.impl.json.CategoriesContainer;
 import org.springframework.social.foursquare.api.impl.json.ExploreResponseContainer;
+import org.springframework.social.foursquare.api.impl.json.GeoCodeContainer;
 import org.springframework.social.foursquare.api.impl.json.HereNowContainer;
 import org.springframework.social.foursquare.api.impl.json.TipsContainer;
 import org.springframework.social.foursquare.api.impl.json.TodoContainer;
@@ -24,6 +26,7 @@ import org.springframework.social.foursquare.api.impl.json.VenueContainer;
 import org.springframework.social.foursquare.api.impl.json.VenueLinksContainer;
 import org.springframework.social.foursquare.api.impl.json.VenuePhotosContainer;
 import org.springframework.social.foursquare.api.impl.json.VenueSearchContainer;
+import org.springframework.social.foursquare.api.impl.json.VenueSearchResponseContainer;
 import org.springframework.social.foursquare.api.VenueSearchResponse;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
@@ -63,7 +66,11 @@ public class VenueTemplate extends AbstractFoursquareOperations implements Venue
 	}
 
     public VenueSearchResponse search(VenueSearchParams query) {
-        return get(buildUri(VENUES_ENDPOINT + "search", query.toParameters()), VenueSearchContainer.class).getVenueSearchResponse();
+        return get(buildUri(VENUES_ENDPOINT + "search", query.toParameters()), VenueSearchResponseContainer.class).getVenueSearchResponse();
+    }
+    
+    public GeoCode getGeocode(VenueSearchParams query) {
+        return get(buildUri(VENUES_ENDPOINT + "search", query.toParameters()), GeoCodeContainer.class).getGeoCode();
     }
     
     public List<Venue> getTrending(double latitude, double longitude, int radius, int limit) {
