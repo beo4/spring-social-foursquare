@@ -25,6 +25,7 @@ import org.springframework.social.foursquare.api.Venue;
 import org.springframework.social.foursquare.api.VenueLinks;
 import org.springframework.social.foursquare.api.Photos;
 import org.springframework.social.foursquare.api.VenueSearchParams;
+import org.springframework.social.foursquare.api.VenueSearchResponse;
 
 public class VenueTemplateTest extends AbstractFoursquareApiTest {
 	
@@ -90,7 +91,8 @@ public class VenueTemplateTest extends AbstractFoursquareApiTest {
             .andRespond(withResponse(new ClassPathResource("testdata/venue-search.json", getClass()), responseHeaders));
         
         VenueSearchParams query = new VenueSearchParams().location(10d, 10d).query("QUERY");
-        List<Venue> results = foursquare.venueOperations().search(query);
+        VenueSearchResponse response = foursquare.venueOperations().search(query);
+        List<Venue> results = response.getVenues();
         assertTrue(results.size() > 0);
     }
 	

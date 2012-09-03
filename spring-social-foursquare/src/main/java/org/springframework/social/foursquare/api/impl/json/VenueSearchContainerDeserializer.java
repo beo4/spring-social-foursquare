@@ -17,7 +17,8 @@ public class VenueSearchContainerDeserializer extends AbstractFoursquareDeserial
 	public VenueSearchContainer deserialize(JsonParser jp, DeserializationContext ctxt) 
 			throws IOException, JsonProcessingException {
 	    List<Venue>result = (List<Venue>) deserializeNestedList(jp, "venues", new TypeReference<List<Venue>>(){});
-	    GeoCode geoCode = deserializeNestedResponseObject(jp, "geocode", GeoCode.class);
-		return new VenueSearchContainer(result, geoCode);
+	    //GeoCodeContainer geoCodeContainer = new GeoCodeContainerDeserializer().deserialize(jp, ctxt);
+	    GeoCode geoCode = (GeoCode) deserializeNestedResponseObject(jp, "geocode", GeoCode.class);
+		return new VenueSearchContainer(result, null);
 	}
 }
