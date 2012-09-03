@@ -41,10 +41,10 @@ abstract class VenueMixin {
 	List<String> tags;
 	
 	@JsonProperty("specials")
-	List<Specials> specials;
+	Specials specials;
 
 	@JsonProperty("specialsNearby")
-	List<Specials> specialsNearby;
+	Specials specialsNearby;
 	
 	@JsonProperty("shortUrl")
 	String shortUrl;
