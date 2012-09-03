@@ -21,6 +21,7 @@ public class VenueSearchParams {
     private String url;
     private String providerId;
     private String linkedId;
+    private String near;
 
     public String getLinkedId() {
         return linkedId;
@@ -28,6 +29,15 @@ public class VenueSearchParams {
 
     public VenueSearchParams linkedId(String linkedId) {
         this.linkedId = linkedId;
+        return this;
+    }
+    
+    public String getNear() {
+        return near;
+    }
+
+    public VenueSearchParams near(String near) {
+        this.near = near;
         return this;
     }
 
@@ -160,6 +170,9 @@ public class VenueSearchParams {
         }
         if (linkedId != null) {
             params.put("linkedId", linkedId);
+        }
+        if (near != null) {
+            params.put("near", near);
         }
         return params;
     }

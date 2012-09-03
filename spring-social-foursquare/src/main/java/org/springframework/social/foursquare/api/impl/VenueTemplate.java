@@ -24,6 +24,7 @@ import org.springframework.social.foursquare.api.impl.json.VenueContainer;
 import org.springframework.social.foursquare.api.impl.json.VenueLinksContainer;
 import org.springframework.social.foursquare.api.impl.json.VenuePhotosContainer;
 import org.springframework.social.foursquare.api.impl.json.VenueSearchContainer;
+import org.springframework.social.foursquare.api.VenueSearchResponse;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 
@@ -61,8 +62,8 @@ public class VenueTemplate extends AbstractFoursquareOperations implements Venue
 	    return get(buildUri(VENUES_ENDPOINT + "explore", query.toParameters()), ExploreResponseContainer.class).getResponse();
 	}
 
-    public List<Venue> search(VenueSearchParams query) {
-        return get(buildUri(VENUES_ENDPOINT + "search", query.toParameters()), VenueSearchContainer.class).getVenues();
+    public VenueSearchResponse search(VenueSearchParams query) {
+        return get(buildUri(VENUES_ENDPOINT + "search", query.toParameters()), VenueSearchContainer.class).getVenueSearchResponse();
     }
     
     public List<Venue> getTrending(double latitude, double longitude, int radius, int limit) {

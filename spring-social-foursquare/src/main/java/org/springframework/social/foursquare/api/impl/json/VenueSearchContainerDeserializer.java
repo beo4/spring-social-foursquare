@@ -8,6 +8,7 @@ import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.map.DeserializationContext;
 import org.codehaus.jackson.type.TypeReference;
 import org.springframework.social.foursquare.api.Venue;
+import org.springframework.social.foursquare.api.GeoCode;
 
 public class VenueSearchContainerDeserializer extends AbstractFoursquareDeserializer<VenueSearchContainer> {
     
@@ -16,6 +17,7 @@ public class VenueSearchContainerDeserializer extends AbstractFoursquareDeserial
 	public VenueSearchContainer deserialize(JsonParser jp, DeserializationContext ctxt) 
 			throws IOException, JsonProcessingException {
 	    List<Venue>result = (List<Venue>) deserializeNestedList(jp, "venues", new TypeReference<List<Venue>>(){});
-		return new VenueSearchContainer(result);
+	    GeoCode geoCode = deserializeNestedResponseObject(jp, "geocode", GeoCode.class);
+		return new VenueSearchContainer(result, geoCode);
 	}
 }

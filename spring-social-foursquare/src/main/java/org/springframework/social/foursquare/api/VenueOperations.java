@@ -50,7 +50,7 @@ public interface VenueOperations {
 	 * @param query	A VenueSearchQuery object
 	 * @return	A list of venues
 	 */
-	List<Venue> search(VenueSearchParams query);
+	VenueSearchResponse search(VenueSearchParams query);
 	
 	/**
 	 * Retreive a list of venues near the specified location with the most people currently checked in. 
