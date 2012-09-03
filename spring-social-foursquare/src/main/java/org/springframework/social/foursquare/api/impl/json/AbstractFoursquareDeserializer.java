@@ -22,7 +22,7 @@ public abstract class AbstractFoursquareDeserializer<T> extends JsonDeserializer
 			String fieldname = jp.getCurrentName();
 			jp.nextToken();
 			if("response".equals(fieldname)) {
-                while(jp.nextToken() != JsonToken.END_OBJECT) {
+                while(jp.nextToken() != null) {
                     String responseField = jp.getCurrentName();
                     jp.nextToken();
                     if(propertyName.equals(responseField)) {
@@ -31,6 +31,7 @@ public abstract class AbstractFoursquareDeserializer<T> extends JsonDeserializer
                         return result;
                     }
                 }
+                return null;
             }
         }
     }
@@ -41,13 +42,14 @@ public abstract class AbstractFoursquareDeserializer<T> extends JsonDeserializer
 			String fieldname = jp.getCurrentName();
 			jp.nextToken();
 			if("response".equals(fieldname)) {
-				while(jp.nextToken() != JsonToken.END_OBJECT) {
+				while(jp.nextToken() != null) {
 					String responseField = jp.getCurrentName();
 					jp.nextToken();
 					if(responseProperty.equals(responseField)) {
 						return jp.readValueAs(responseType);
 					}
 				}
+				return null;
 			}
         }
 	}
