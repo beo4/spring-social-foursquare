@@ -69,6 +69,10 @@ public class VenueTemplate extends AbstractFoursquareOperations implements Venue
         return get(buildUri(VENUES_ENDPOINT + "search", query.toParameters()), VenueSearchResponseContainer.class).getVenueSearchResponse();
     }
     
+    public VenueSearchResponse suggestCompletion(VenueSearchParams query) {
+        return get(buildUri(VENUES_ENDPOINT + "suggestcompletion", query.toParameters()), VenueSearchResponseContainer.class).getVenueSearchResponse();
+    }
+    
     public GeoCode getGeocode(VenueSearchParams query) {
         return get(buildUri(VENUES_ENDPOINT + "search", query.toParameters()), GeoCodeContainer.class).getGeoCode();
     }
@@ -177,4 +181,6 @@ public class VenueTemplate extends AbstractFoursquareOperations implements Venue
 		post(buildUri(VENUES_ENDPOINT + venueId + "/proposeedit"), params, Map.class);
 	}
 
+	
+	
 }
