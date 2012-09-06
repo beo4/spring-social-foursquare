@@ -55,6 +55,13 @@ public interface VenueOperations {
 	/**
 	 * Search Foursquare venues
 	 * @param query	A VenueSearchQuery object
+	 * @return	A list of mini venues
+	 */
+	VenueSearchResponse suggestCompletion(VenueSearchParams query);
+	
+	/**
+	 * Search Foursquare venues
+	 * @param query	A VenueSearchQuery object
 	 * @return	The GeoCode for the Search
 	 */
 	GeoCode getGeocode(VenueSearchParams query);
