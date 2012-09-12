@@ -33,6 +33,7 @@ import org.springframework.social.foursquare.api.Leaderboard;
 import org.springframework.social.foursquare.api.LeaderboardItem;
 import org.springframework.social.foursquare.api.Location;
 import org.springframework.social.foursquare.api.MayorshipInfo;
+import org.springframework.social.foursquare.api.MiniVenueSearchResponse;
 import org.springframework.social.foursquare.api.Photo;
 import org.springframework.social.foursquare.api.PhotoGroup;
 import org.springframework.social.foursquare.api.PhotoGroups;
@@ -137,5 +138,6 @@ public class FoursquareModule extends SimpleModule {
 		context.setMixInAnnotations(GeoCodeGeoPt.class, GeoCodeGeoPtMixin.class);
 		context.setMixInAnnotations(GeoCodeGeometry.class, GeoCodeGeometryMixin.class);
 		context.setMixInAnnotations(VenueSearchResponse.class, VenueSearchResponseMixin.class);
+		context.setMixInAnnotations(MiniVenueSearchResponse.class, MiniVenueSearchResponseMixin.class);
 	}
 }

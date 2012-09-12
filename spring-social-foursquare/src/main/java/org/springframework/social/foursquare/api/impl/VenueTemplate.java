@@ -9,6 +9,7 @@ import org.springframework.social.foursquare.api.CheckinInfo;
 import org.springframework.social.foursquare.api.ExploreQuery;
 import org.springframework.social.foursquare.api.ExploreResponse;
 import org.springframework.social.foursquare.api.GeoCode;
+import org.springframework.social.foursquare.api.MiniVenueSearchResponse;
 import org.springframework.social.foursquare.api.Tips;
 import org.springframework.social.foursquare.api.Todo;
 import org.springframework.social.foursquare.api.Venue;
@@ -20,6 +21,7 @@ import org.springframework.social.foursquare.api.impl.json.CategoriesContainer;
 import org.springframework.social.foursquare.api.impl.json.ExploreResponseContainer;
 import org.springframework.social.foursquare.api.impl.json.GeoCodeContainer;
 import org.springframework.social.foursquare.api.impl.json.HereNowContainer;
+import org.springframework.social.foursquare.api.impl.json.MiniVenueSearchResponseContainer;
 import org.springframework.social.foursquare.api.impl.json.TipsContainer;
 import org.springframework.social.foursquare.api.impl.json.TodoContainer;
 import org.springframework.social.foursquare.api.impl.json.VenueContainer;
@@ -69,8 +71,8 @@ public class VenueTemplate extends AbstractFoursquareOperations implements Venue
         return get(buildUri(VENUES_ENDPOINT + "search", query.toParameters()), VenueSearchResponseContainer.class).getVenueSearchResponse();
     }
     
-    public VenueSearchResponse suggestCompletion(VenueSearchParams query) {
-        return get(buildUri(VENUES_ENDPOINT + "suggestcompletion", query.toParameters()), VenueSearchResponseContainer.class).getVenueSearchResponse();
+    public List<Venue> suggestCompletion(VenueSearchParams query) {
+        return get(buildUri(VENUES_ENDPOINT + "suggestcompletion", query.toParameters()), MiniVenueSearchResponseContainer.class).getMiniVenueSearchResponse().getVenues();
     }
     
     public GeoCode getGeocode(VenueSearchParams query) {

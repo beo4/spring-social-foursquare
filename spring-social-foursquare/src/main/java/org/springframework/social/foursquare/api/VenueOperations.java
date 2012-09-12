@@ -57,7 +57,7 @@ public interface VenueOperations {
 	 * @param query	A VenueSearchQuery object
 	 * @return	A list of mini venues
 	 */
-	VenueSearchResponse suggestCompletion(VenueSearchParams query);
+	List<Venue> suggestCompletion(VenueSearchParams query);
 	
 	/**
 	 * Search Foursquare venues
