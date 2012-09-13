@@ -6,7 +6,7 @@ import java.util.Map;
 public class VenueSearchParams {
 
     public static enum Intent {
-        CHECKIN, MATCH, SPECIALS
+        CHECKIN, MATCH, SPECIALS, BROWSE, GLOBAL
     }
 
     private Double latitude;
@@ -22,6 +22,8 @@ public class VenueSearchParams {
     private String providerId;
     private String linkedId;
     private String near;
+    private String sw;
+    private String ne;
 
     public String getLinkedId() {
         return linkedId;
@@ -38,6 +40,24 @@ public class VenueSearchParams {
 
     public VenueSearchParams near(String near) {
         this.near = near;
+        return this;
+    }
+    
+    public String getNe() {
+        return ne;
+    }
+
+    public VenueSearchParams ne(String ne) {
+        this.ne = ne;
+        return this;
+    }
+    
+    public String getSw() {
+        return sw;
+    }
+
+    public VenueSearchParams sw(String sw) {
+        this.sw = sw;
         return this;
     }
 
@@ -173,6 +193,10 @@ public class VenueSearchParams {
         }
         if (near != null) {
             params.put("near", near);
+        }
+        if (ne != null && sw != null) {
+            params.put("ne", ne);
+            params.put("sw", sw);
         }
         return params;
     }
